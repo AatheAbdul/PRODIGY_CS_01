@@ -21,3 +21,10 @@ Cipher: D E F G H I ...
 
 - For encryption: `(original_index + key) % 26`
 - For decryption: `(original_index - key) % 26`
+
+---
+
+## Usage
+```bash
+python caesar_cipher.py
+```
